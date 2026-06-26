@@ -8,19 +8,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
 </head>
 <body>
-    <div class="container">
-        
+    <div class="container">    
     <header>
-        <h1> AI Fitness Planner</h1>
+        <h1> AI Fitness Coach</h1>
     </header>
-        
+
     <main>
         <div class="search-section">
             
-            <form action="">
+            <form id="plan-generator-form">
                 <input type="text" placeholder="What type of fitness planning?"  required autocomplete="off" class="search-box">
                 <input type="submit" value="Search" class="search-btn">
             </form>
@@ -28,8 +28,8 @@
                 You can search different things
             </div>
         </div>
-        <div class="poem">
-            Functional workout...
+        <div class="plan" id="fitness-plan">
+            
         </div>
     </main> 
 
