@@ -124,12 +124,16 @@ form{
 .plan{
      background: rgba(255,255,255,.92);
      border: 1px solid rgba(255,255,255,.7);
-    box-shadow:
+     box-shadow:
      0 6px 15px rgba(0,0,0,.05),
      0 20px 45px rgba(109,40,217,.10);
      padding: 20px 10px;
      margin-bottom: 10px ;
      border-radius: 12px 0 12px 0;
+     
+}
+.hidden{
+    display: none;
 }
 
 footer{
