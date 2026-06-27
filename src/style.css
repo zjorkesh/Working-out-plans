@@ -121,6 +121,29 @@ form{
     color: #5d5d5d;
 
 }
+
+.hourglass {
+  display: inline-block;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.dots::after {
+  content: "";
+  display: inline-block;
+  animation: dots 1.2s steps(3, end) infinite;
+}
+
+@keyframes dots {
+  0% { content: ""; }
+  33% { content: "."; }
+  66% { content: ".."; }
+  100% { content: "..."; }
+}
 .plan{
      background: rgba(255,255,255,.92);
      border: 1px solid rgba(255,255,255,.7);
@@ -145,9 +168,9 @@ a{
     color: #6023BE;
     text-decoration: none;
     transition: color .2s ease;
-   
 }
 
 a:hover{
     color: #c026d3;
 }
+
