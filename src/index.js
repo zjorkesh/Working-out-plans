@@ -15,4 +15,3 @@ function generatePlan(event){
 
 let planFormElement = document.querySelector("#plan-generator-form");
 planFormElement.addEventListener("submit", generatePlan);
-alert("test")
